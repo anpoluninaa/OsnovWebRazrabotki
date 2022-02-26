@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Магазин "Свети"</title>
+	<style>
+body {
+	background: #cebdb0;
+	max-width: 900px;
+	margin: 2% auto;
+	font-family:'Comic Sans MS', cursive;
+
+}
+h1 {
+	font-size: 36px; 
+	margin: 0; 
+	font-family:'Comic Sans MS', cursive;
+	color: #4b2f1b;
+}
+shapka {
+	font-size: 36px;
+	color: #ff0000;
+    
+}
+.header {
+  background: #dcdcdc;
+  padding: 10px; 
+	font-family:'Comic Sans MS', cursive;
+}
+.sidebar {
+  float: left; 
+  border: 1px solid #333; 
+  width: 20%; 
+  padding: 5px; 
+  margin: 10px 10px 20px 5px; 
+	background: #dcdcdc;
+}
+.content {
+  margin: 10px 5px 20px 25%; 
+	padding: 5px; 
+	border: 1px solid #333;
+	background: #dcdcdc ;
+
+}
+.product-item {
+ 	width: 300px;
+	text-align: center;
+ 	margin: 0 auto;
+ 	border-bottom: 2px solid #F5F5F5;
+ 	background: #cebdb0;
+ 	font-family: "Open Sans";
+ 	transition: .3s ease-in;
+}
+.product-item:hover {
+  border-bottom: 2px solid #fc5a5a;
+}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+ 	background: #fafafa;
+ 	padding: 15px 0;
+}
+.product-list h3 {
+ 	font-size: 18px;
+ 	font-weight: 400;
+ 	color: #444444;
+ 	margin: 0 0 10px 0;
+}
+.price {
+ 	font-size: 16px;
+ 	color: #bca485;
+ 	display: block;
+ 	margin-bottom: 12px;
+}
+.button {
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	padding: 0 12px;
+ 	background: #cccccc;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	font-size: 12px;
+ 	line-height: 28px;
+ 	transition: .3s ease-in;
+}
+.footer {
+
+	background: #dcdcdc; 
+	padding: 5px; 
+	color: #4b2f1b; 
+	font-family:'Comic Sans MS', cursive;
+}
+
+
+</style>
+</head>
+
+<body>
+	<header>
+		<h1 align="center">«Свети»</h1>
+		<div class="shapka">
+			<p><a href="#">Ваш город</a></p>
+			<p><a href="#">Вход в личный кабинет</a></p>
+    </div>
+		<div class="header">
+      <h2 align="center">Соевая свеча с крышкой</h2>
+    <hr color= #bca485; width="100%">
+    </div>
+	</header>
+	<main>
+		
+	<div class="sidebar">
+			<p><a href="#"><a href =" file:///C:/Users/polun/OneDrive/Рабочий%20стол/УНИВЕР/основы%20веб%20разработки/Практика/интернет%20магазин/index.html">Главная</a></p>
+			<p><a href="#">Каталог</a></p>
+			<p><a href="#">Доставка</a></p>
+			<p><a href="#">О нас</a></p>
+  	</div>
+  	<div class="content">
+  	<p align="middle"><img src="s kriskoi.jpg" width="350" height="400" alt=""></p>
+  	</div>
+  	<h3 align="center">1999 ₽</h3>
+  	<h3 align="center"><a href="#">ДОБАВИТЬ В КОРЗИНУ</a></h3>
+    <h3 align="center"><a href="#"> В ИЗБРАННОЕ</a></h3>
+  	<div class="h1">
+        <h2 align="center">Подробное описание товара</h2>
+        <hr color= #bca485; width="100%">
+        <p>Бездымная ароматическая свеча в стакане создаст неповторимый уют и свежий аромат в вашем доме. Для защиты и сохранения аромата стакан завершает крышка из натурального дерева, которую можно использовать в качестве подставки-подсвечника. Перед началом использования необходимо обрезать фитиль до 5мм. Поставляется в гофрокоробке.</p>
+    </div>
+    <hr color= #bca485; width="100%">
+    <footer>
+    	<div class="footer">
+         	<p align="center">Все права защищены</p>
+        </div>
+    </footer>
+			
+</body>
+</html>
